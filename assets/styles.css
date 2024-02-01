@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(136, 191, 191);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(118, 132, 214);
+}
+a:visited{
+    color: rgb(120, 102, 165);
+}
+
+a:hover{
+    color: aliceblue;
+    
+}
+
+ul{
+    text-align: left;
+    list-style: circle;
+
+
+}
+
+.recipe-list{
+    text-align: center;
+    list-style: none;
+    border:1.25px solid thistle;
+    border-style: groove;
+}
+
+.meal-img{
+    height: 300px;
+    border-radius: 4px;
+}
