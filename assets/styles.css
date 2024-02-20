@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+a:visited{
+    color: rgb(207, 207, 64);
+}
+a:hover{
+    color: rgb(207, 207, 64);
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: rgb(6, 6, 5);
+    color: azure;
+}
+
+.hero-container{
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+    background-color: rgb(6, 6, 5);
+}
+
+.hero-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2px;
+    background-color: rgb(32, 31, 30);
+    margin-top: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.hero-links-container > li {
+    border-left: 2px solid wheat;
+    border-right: 2px solid wheat;
+    border-radius: 7px;
+    padding: 0 4px;
+}
