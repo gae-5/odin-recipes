@@ -1,6 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 ul{
     list-style: none;
@@ -19,17 +22,17 @@ a{
 }
 
 a:visited{
-    color: rgb(207, 207, 64);
+    color: rgb(78, 79, 107);
 }
+
 a:hover{
     color: rgb(255, 255, 255);
     /*text-decoration: line-through;*/
-    text-decoration:underline;
+    text-decoration:none;
     background-color: black;
     border-radius: 7px;
     padding: 2px;
 }
-
 .header-container{
     display: flex;
     align-items: center;
@@ -56,17 +59,101 @@ a:hover{
     background-color: rgb(255, 255, 255);
     margin-top: 0;
     padding-top: 1%;
-    padding-bottom: 1%;
+    margin-bottom: 0;
 }
 
 .hero-links-container > li {
     border-radius: 7px;
-    padding: 0 4px;
+    padding: 4px;
 }
 
 .top-wrapper{
     display: flex;
     flex-direction: column;
-    flex: auto;
-    height: 10%;
+}
+
+.body-wrapper-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-image: url("./../img/istockphoto-1409236261-1024x1024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-wrapper{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+input{
+    border-radius: 7px;
+    
+}
+
+.content-wrapper{
+    display: flex;
+    flex: 1;
+    padding-left: 15%;
+    padding-right: 15%;
+    gap: 8px;
+}
+
+
+.left-content > h1 {
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+
+.right-content-wrapper{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-content{
+    margin: 3%;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: black;
+    padding: 3px;
+
+}
+.right-content > p {
+    color: white;
+}
+
+button{
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-top:auto;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
